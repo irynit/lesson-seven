@@ -1,0 +1,138 @@
+input[type="checkbox"]:checked {
+  accent-color: white;
+}
+
+.header {
+  max-width: 793px;
+  margin: 0 auto;
+  background: #4A4F56;
+}
+
+.header__container {
+  max-width: 793px;
+  padding: 19px 0 12px;
+}
+
+.header__container-box {
+  max-width: 276px;
+  margin: 0 auto;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__container-box-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  color: #FF8984;
+}
+
+.header__container-box-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  color: #FF8984;
+}
+
+.section {
+  max-width: 793px;
+  margin: 0 auto;
+  background: #3B3F45;
+}
+
+.section__container {
+  max-width: 793px;
+  padding: 20px 0 45px;
+}
+
+.section__list {
+  max-width: 534px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.section__list-point {
+  max-width: 534px;
+  display: flex;
+  flex-direction: row;
+  background: #88839E;
+}
+
+.section__list-point:nth-child(2n) {
+  background: #7A7593;
+}
+
+.section__list-point:hover {
+  background: #625E77;
+  border-top: 3px solid #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+.section__list-point-checkbox {
+  margin-left: 12px;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 14px;
+  margin-top: 14px;
+}
+
+.section__list-point-checkbox:checked~p {
+  text-decoration: line-through;
+}
+
+.section__list-point-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 11px 0 13px 16px;
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.section__list-point-text-desсription {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  margin: 14px 0 14px 10px;
+  color: #FFFFFF;
+}
+
+.section__footer {
+  max-width: 534px;
+  background: #4A4F56;
+  margin: 45px auto 0;
+  display: flex;
+}
+
+.section__footer-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 12px auto;
+  display: flex;
+  align-items: center;
+  color: #FF8984;
+
+}
